@@ -14,7 +14,10 @@
                                                      halign="center">
                                     <af:button text="Send message" id="sendButton" partialTriggers="sendButton" partialSubmit="true"
                                                actionListener="#{viewScope.jmsAdfBean.sendMessage}"/>
-                                    <af:inputText id="messageIt" binding="#{viewScope.jmsAdfBean.sendMessageText}"/>
+                                    <af:inputText id="messageIt" binding="#{viewScope.jmsAdfBean.sendMessageText}" partialTriggers="sendButton"/>
+                                    <af:inputText label="Count repeat:" id="it1"
+                                                  binding="#{viewScope.jmsAdfBean.repeatCount}" partialTriggers="sendButton"
+                                                  contentStyle="width:20px"/>
                                 </af:panelGroupLayout>
                                 <af:spacer width="40" height="10" id="s1"/>
                                 <af:panelGroupLayout id="pgl4" layout="vertical" halign="center">
