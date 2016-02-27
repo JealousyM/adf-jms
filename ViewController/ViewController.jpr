@@ -258,11 +258,11 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Javax.jms_1.1.4.jar"/>
+            <value n="id" v="Weblogic.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Weblogic.jar"/>
+            <value n="id" v="Javax.jms_1.1.4.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
@@ -270,20 +270,20 @@
          <list n="libraryDefinitions">
             <hash>
                <list n="classPath">
-                  <url path="../../../../Oracle/Middleware/Oracle_Home/oracle_common/modules/javax.jms_1.1.4.jar" jar-entry=""/>
-               </list>
-               <value n="deployedByDefault" v="true"/>
-               <value n="description" v="Javax.jms_1.1.4.jar"/>
-               <value n="id" v="Javax.jms_1.1.4.jar"/>
-               <value n="locked" v="true"/>
-            </hash>
-            <hash>
-               <list n="classPath">
                   <url path="../../../../Oracle/Middleware/Oracle_Home/wlserver/server/lib/weblogic.jar" jar-entry=""/>
                </list>
                <value n="deployedByDefault" v="true"/>
                <value n="description" v="Weblogic.jar"/>
                <value n="id" v="Weblogic.jar"/>
+               <value n="locked" v="true"/>
+            </hash>
+            <hash>
+               <list n="classPath">
+                  <url path="lib/javax.jms_1.1.4.jar" jar-entry=""/>
+               </list>
+               <value n="deployedByDefault" v="true"/>
+               <value n="description" v="Javax.jms_1.1.4.jar"/>
+               <value n="id" v="Javax.jms_1.1.4.jar"/>
                <value n="locked" v="true"/>
             </hash>
          </list>
@@ -366,11 +366,11 @@
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Javax.jms_1.1.4.jar"/>
+            <value n="id" v="Weblogic.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
          <hash>
-            <value n="id" v="Weblogic.jar"/>
+            <value n="id" v="Javax.jms_1.1.4.jar"/>
             <value n="isJDK" v="false"/>
          </hash>
       </list>
