@@ -7,8 +7,8 @@
     <echo>build application</echo>
     <echo>${basedir}</echo>
     <taskdef name="ojdeploy" classname="oracle.jdeveloper.deploy.ant.OJDeployAntTask" uri="oraclelib:OJDeployAntTask"
-             classpath="${oracle.jdeveloper.ant.library}"/>
-    <ora:ojdeploy xmlns:ora="oraclelib:OJDeployAntTask" executable="${oracle.jdeveloper.ojdeploy.path}"
+             classpath="${ant.library}"/>
+    <ora:ojdeploy xmlns:ora="oraclelib:OJDeployAntTask" executable="${ojdeploy.path}"
                   ora:buildscript="${basedir}/deploy/ojdeploy-build.xml"
                   ora:statuslog="${basedir}/deploy/ojdeploy-statuslog.xml">
       <ora:deploy>
